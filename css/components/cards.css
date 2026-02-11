@@ -1,0 +1,65 @@
+/* Cards Component Styles */
+.card {
+    background: var(--card-bg);
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+    margin-bottom: 20px;
+}
+
+.card-icon img {
+    opacity: 0.7;
+    filter: sepia(0.3);
+}
+
+.card-title {
+    font-family: var(--accent-font);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.card-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.card-button.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.card-button.outline {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card-button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

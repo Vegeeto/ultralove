@@ -1,0 +1,41 @@
+:root {
+    --bg-gradient: linear-gradient(180deg, #eaddd3 0%, #c48c7a 100%);
+    --card-bg: #fffcf9;
+    --primary-color: #b3735f;
+    --text-color: #7d5a50;
+    --accent-font: 'Great Vibes', cursive;
+    --body-font: 'Playfair Display', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg-gradient);
+    font-family: var(--body-font);
+    color: var(--text-color);
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* Slider Component (imported in js/components/wedding-slider.js) */
+/* Countdown Component (imported in js/components/wedding-countdown.js) */
+/* Cards Component (imported in js/components/wedding-cards.js) */
+/* Footer Component (imported in js/components/wedding-footer.js) */
+
+/* Responsive */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}

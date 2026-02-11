@@ -1,0 +1,36 @@
+/* Countdown Component Styles */
+.countdown {
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.time-block span {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time-block small {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    margin-top: 5px;
+}
