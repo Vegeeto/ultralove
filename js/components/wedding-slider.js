@@ -5,10 +5,10 @@ class WeddingSlider extends HTMLElement {
             <section class="slider-container">
                 <div class="slider">
                     <div class="slide active">
-                        <img src="img/Portada.png" alt="Portada">
+                        <img src="img/optimized/Portada.webp" alt="UltraLove 2026" fetchpriority="high">
                     </div>
                     <div class="slide">
-                        <img src="img/Contraportada.png" alt="Contraportada">
+                        <img src="img/optimized/Contraportada.webp" alt="Etapes" fetchpriority="low">
                     </div>
                 </div>
                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>

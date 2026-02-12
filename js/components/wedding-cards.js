@@ -6,7 +6,7 @@ class WeddingCards extends HTMLElement {
                 <!-- Card 1 -->
                 <div class="card">
                     <div class="card-icon">
-                        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Ubicació" width="60">
+                        <img src="img/original/location.png" alt="Ubicació" width="60">
                     </div>
                     <h2 class="card-title">Turó del Sol</h2>
                     <div class="card-description">
@@ -22,7 +22,7 @@ class WeddingCards extends HTMLElement {
                 <!-- Card 2 -->
                 <div class="card">
                     <div class="card-icon">
-                        <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" width="60">
+                        <img src="img/original/email.png" alt="Email" width="60">
                     </div>
                     <h2 class="card-title">Confirma la teva assistència!</h2>
                     <div class="card-description">
