@@ -16,7 +16,7 @@ class WeddingCards extends HTMLElement {
                             🕒 13:00h
                         </p>
                     </div>
-                    <a href="https://maps.google.com" class="card-button primary">Obrir a Google Maps</a>
+                    <a href="https://maps.app.goo.gl/KTfRPCLbKs5WLmLU9" target="_blank" class="card-button primary">Obrir a Google Maps</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -28,7 +28,7 @@ class WeddingCards extends HTMLElement {
                     <div class="card-description">
                         <p>Digue'ns si vindràs i si tens alguna intolerància per preparar-ho tot amb amor. 😊</p>
                     </div>
-                    <a href="#" class="card-button outline">Omple el formulari ara</a>
+                    <a href="https://forms.gle/JREiBBp2cp1RiPJF6" target="_blank" class="card-button outline">Omple el formulari ara</a>
                 </div>
             </main>
         `;
