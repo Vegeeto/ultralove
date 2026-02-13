@@ -6,7 +6,7 @@ class WeddingCards extends HTMLElement {
                 <!-- Card 1 -->
                 <div class="card">
                     <div class="card-icon">
-                        <img src="img/original/location.png" alt="Ubicació" width="60">
+                        <img src="img/optimized/location.webp" alt="Ubicació" width="60">
                     </div>
                     <h2 class="card-title">Turó del Sol</h2>
                     <div class="card-description">
@@ -16,13 +16,13 @@ class WeddingCards extends HTMLElement {
                             🕒 13:00h
                         </p>
                     </div>
-                    <a href="https://maps.app.goo.gl/KTfRPCLbKs5WLmLU9" target="_blank" class="card-button primary">Obrir a Google Maps</a>
+                    <a href="https://maps.app.goo.gl/KTfRPCLbKs5WLmLU9" target="_blank" class="card-button outline">Obrir a Google Maps</a>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="card">
                     <div class="card-icon">
-                        <img src="img/original/email.png" alt="Email" width="60">
+                        <img src="img/optimized/email.webp" alt="Email" width="60">
                     </div>
                     <h2 class="card-title">Confirma la teva assistència!</h2>
                     <div class="card-description">
